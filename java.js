@@ -1,6 +1,7 @@
-let nevim = 1 
+let nevim = 1;
 document.querySelector("p").innerHTML = nevim;
 
 let press = () => {
-    nevim + 1
+    nevim = nevim + 1;
+    document.querySelector("p").innerHTML = nevim;
 }
