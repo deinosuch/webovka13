@@ -2,7 +2,9 @@ import pyautogui
 import keyboard
 import time
 import time
-
+while not keyboard.is_pressed("s"):
+    time.sleep(0.1)
+pyautogui.press("/")
 time.sleep(2)
 """
 while True:
